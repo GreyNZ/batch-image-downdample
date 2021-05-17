@@ -24,13 +24,6 @@ def downsample_image(img, downsample=1):
         img = cv2.pyrDown(img) 
     return img
 
-#def open_img(file):
-#    """trys to open image, if successful returns img, else retrusn False"""
-#    try:
-#        img = cv2.imread(f'{OPEN_PATH}{FILE_PREFIX}{file}{FILE_SUFFIX}')
-#        return img
-#    except:
-#        return False
 
 def main():
     for i in range(START,END):
